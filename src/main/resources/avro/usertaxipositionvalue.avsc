@@ -1,0 +1,45 @@
+{
+  "type": "record",
+  "name": "UserTaxiPositionValue",
+  "namespace": "taxi",
+  "fields": [
+    {
+      "name": "distance",
+    "type": [
+      "null",
+      "int"
+    ],
+    "default": null
+    },
+    {
+      "name": "user_lat_id",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "user_long_id",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "taxi_lat_id",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "taxi_long_id",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "taxi_id",
+      "type": ["null", "int"],
+      "default": null
+    },
+    {
+      "name": "user_id",
+      "type": ["null", "int"],
+      "default": null
+    }
+  ]
+}

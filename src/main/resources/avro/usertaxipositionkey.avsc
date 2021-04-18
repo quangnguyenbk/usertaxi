@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "UserTaxiPositionKey",
+  "namespace": "taxi",
+  "fields": [
+    {
+      "name": "taxi_id",
+      "type": "int"
+    },
+    {
+      "name": "user_id",
+      "type": "int"
+    }
+  ]
+}

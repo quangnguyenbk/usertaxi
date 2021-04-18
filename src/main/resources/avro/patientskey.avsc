@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Key",
+  "namespace": "ehr_patient_mgr.ehr_patient_mgr.patients",
+  "fields": [
+    {
+      "name": "patient_id",
+      "type": "int"
+    }
+  ],
+  "connect.name": "ehr_patient_mgr.ehr_patient_mgr.patients.Key"
+}

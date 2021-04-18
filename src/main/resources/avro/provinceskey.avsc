@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Key",
+  "namespace": "ehr_resource_mgr.ehr_resource_mgr.cats_provinces",
+  "fields": [
+    {
+      "name": "province_id",
+      "type": "string"
+    }
+  ],
+  "connect.name": "ehr_resource_mgr.ehr_resource_mgr.cats_provinces.Key"
+}

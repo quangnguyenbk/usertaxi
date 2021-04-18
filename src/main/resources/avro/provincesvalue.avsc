@@ -1,0 +1,174 @@
+{
+  "type": "record",
+  "name": "Value",
+  "namespace": "ehr_resource_mgr.ehr_resource_mgr.cats_provinces",
+  "fields": [
+    {
+      "name": "province_id",
+      "type": "string"
+    },
+    {
+      "name": "code_vi",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "name_vi",
+      "type": "string"
+    },
+    {
+      "name": "name_en",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "system_url",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "defining_url",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "version",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "type_name",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    },
+    {
+      "name": "region_id",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    },
+    {
+      "name": "bccs_code",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "id_v1",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "description",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "is_delete",
+      "type": [
+        {
+          "type": "boolean",
+          "connect.default": false
+        },
+        "null"
+      ],
+      "default": false
+    },
+    {
+      "name": "is_active",
+      "type": [
+        {
+          "type": "boolean",
+          "connect.default": true
+        },
+        "null"
+      ],
+      "default": true
+    },
+    {
+      "name": "allow_booking",
+      "type": [
+        {
+          "type": "boolean",
+          "connect.default": true
+        },
+        "null"
+      ],
+      "default": true
+    },
+    {
+      "name": "create_user_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "create_date",
+      "type": {
+        "type": "long",
+        "connect.version": 1,
+        "connect.default": 0,
+        "connect.name": "org.apache.kafka.connect.data.Timestamp",
+        "logicalType": "timestamp-millis"
+      },
+      "default": 0
+    },
+    {
+      "name": "update_user_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "update_date",
+      "type": [
+        {
+          "type": "long",
+          "connect.version": 1,
+          "connect.default": 0,
+          "connect.name": "org.apache.kafka.connect.data.Timestamp",
+          "logicalType": "timestamp-millis"
+        },
+        "null"
+      ],
+      "default": 0
+    }
+  ],
+  "connect.name": "ehr_resource_mgr.ehr_resource_mgr.cats_provinces.Value"
+}

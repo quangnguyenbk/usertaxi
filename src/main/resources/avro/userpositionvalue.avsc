@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "UserPositionValue",
+  "namespace": "taxi",
+  "fields": [
+    {
+      "name": "lat_id",
+      "type": "string"
+    },
+    {
+      "name": "long_id",
+      "type": "string"
+    }
+    ]
+}
